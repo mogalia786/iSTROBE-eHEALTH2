@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882F90BB1D9A6DB700F08F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90BA1D9A6DB700F08F40 /* AppDelegate.swift */; };
+		882F90BD1D9A6DB700F08F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90BC1D9A6DB700F08F40 /* ViewController.swift */; };
+		882F90C01D9A6DB700F08F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882F90BE1D9A6DB700F08F40 /* Main.storyboard */; };
+		882F90C21D9A6DB700F08F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882F90C11D9A6DB700F08F40 /* Assets.xcassets */; };
+		882F90C51D9A6DB700F08F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882F90C31D9A6DB700F08F40 /* LaunchScreen.storyboard */; };
+		882F90D01D9A6DB700F08F40 /* iSTROBE_eHEALTH2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90CF1D9A6DB700F08F40 /* iSTROBE_eHEALTH2Tests.swift */; };
+		882F90DB1D9A6DB700F08F40 /* iSTROBE_eHEALTH2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90DA1D9A6DB700F08F40 /* iSTROBE_eHEALTH2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882F90CC1D9A6DB700F08F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882F90AF1D9A6DB700F08F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882F90B61D9A6DB700F08F40;
+			remoteInfo = "iSTROBE-eHEALTH2";
+		};
+		882F90D71D9A6DB700F08F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882F90AF1D9A6DB700F08F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882F90B61D9A6DB700F08F40;
+			remoteInfo = "iSTROBE-eHEALTH2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882F90B71D9A6DB700F08F40 /* iSTROBE-eHEALTH2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSTROBE-eHEALTH2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F90BA1D9A6DB700F08F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		882F90BC1D9A6DB700F08F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		882F90BF1D9A6DB700F08F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882F90C11D9A6DB700F08F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882F90C41D9A6DB700F08F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882F90C61D9A6DB700F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882F90CB1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSTROBE-eHEALTH2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F90CF1D9A6DB700F08F40 /* iSTROBE_eHEALTH2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSTROBE_eHEALTH2Tests.swift; sourceTree = "<group>"; };
+		882F90D11D9A6DB700F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882F90D61D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSTROBE-eHEALTH2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F90DA1D9A6DB700F08F40 /* iSTROBE_eHEALTH2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSTROBE_eHEALTH2UITests.swift; sourceTree = "<group>"; };
+		882F90DC1D9A6DB700F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882F90B41D9A6DB700F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90C81D9A6DB700F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90D31D9A6DB700F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882F90AE1D9A6DB700F08F40 = {
+			isa = PBXGroup;
+			children = (
+				882F90B91D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */,
+				882F90CE1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests */,
+				882F90D91D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests */,
+				882F90B81D9A6DB700F08F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882F90B81D9A6DB700F08F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882F90B71D9A6DB700F08F40 /* iSTROBE-eHEALTH2.app */,
+				882F90CB1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests.xctest */,
+				882F90D61D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882F90B91D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */ = {
+			isa = PBXGroup;
+			children = (
+				882F90BA1D9A6DB700F08F40 /* AppDelegate.swift */,
+				882F90BC1D9A6DB700F08F40 /* ViewController.swift */,
+				882F90BE1D9A6DB700F08F40 /* Main.storyboard */,
+				882F90C11D9A6DB700F08F40 /* Assets.xcassets */,
+				882F90C31D9A6DB700F08F40 /* LaunchScreen.storyboard */,
+				882F90C61D9A6DB700F08F40 /* Info.plist */,
+			);
+			path = "iSTROBE-eHEALTH2";
+			sourceTree = "<group>";
+		};
+		882F90CE1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				882F90CF1D9A6DB700F08F40 /* iSTROBE_eHEALTH2Tests.swift */,
+				882F90D11D9A6DB700F08F40 /* Info.plist */,
+			);
+			path = "iSTROBE-eHEALTH2Tests";
+			sourceTree = "<group>";
+		};
+		882F90D91D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				882F90DA1D9A6DB700F08F40 /* iSTROBE_eHEALTH2UITests.swift */,
+				882F90DC1D9A6DB700F08F40 /* Info.plist */,
+			);
+			path = "iSTROBE-eHEALTH2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882F90B61D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F90DF1D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2" */;
+			buildPhases = (
+				882F90B31D9A6DB700F08F40 /* Sources */,
+				882F90B41D9A6DB700F08F40 /* Frameworks */,
+				882F90B51D9A6DB700F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSTROBE-eHEALTH2";
+			productName = "iSTROBE-eHEALTH2";
+			productReference = 882F90B71D9A6DB700F08F40 /* iSTROBE-eHEALTH2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882F90CA1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F90E21D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2Tests" */;
+			buildPhases = (
+				882F90C71D9A6DB700F08F40 /* Sources */,
+				882F90C81D9A6DB700F08F40 /* Frameworks */,
+				882F90C91D9A6DB700F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882F90CD1D9A6DB700F08F40 /* PBXTargetDependency */,
+			);
+			name = "iSTROBE-eHEALTH2Tests";
+			productName = "iSTROBE-eHEALTH2Tests";
+			productReference = 882F90CB1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		882F90D51D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F90E51D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2UITests" */;
+			buildPhases = (
+				882F90D21D9A6DB700F08F40 /* Sources */,
+				882F90D31D9A6DB700F08F40 /* Frameworks */,
+				882F90D41D9A6DB700F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882F90D81D9A6DB700F08F40 /* PBXTargetDependency */,
+			);
+			name = "iSTROBE-eHEALTH2UITests";
+			productName = "iSTROBE-eHEALTH2UITests";
+			productReference = 882F90D61D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882F90AF1D9A6DB700F08F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = iSTROBE;
+				TargetAttributes = {
+					882F90B61D9A6DB700F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					882F90CA1D9A6DB700F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 882F90B61D9A6DB700F08F40;
+					};
+					882F90D51D9A6DB700F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 882F90B61D9A6DB700F08F40;
+					};
+				};
+			};
+			buildConfigurationList = 882F90B21D9A6DB700F08F40 /* Build configuration list for PBXProject "iSTROBE-eHEALTH2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882F90AE1D9A6DB700F08F40;
+			productRefGroup = 882F90B81D9A6DB700F08F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882F90B61D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */,
+				882F90CA1D9A6DB700F08F40 /* iSTROBE-eHEALTH2Tests */,
+				882F90D51D9A6DB700F08F40 /* iSTROBE-eHEALTH2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882F90B51D9A6DB700F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90C51D9A6DB700F08F40 /* LaunchScreen.storyboard in Resources */,
+				882F90C21D9A6DB700F08F40 /* Assets.xcassets in Resources */,
+				882F90C01D9A6DB700F08F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90C91D9A6DB700F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90D41D9A6DB700F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882F90B31D9A6DB700F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90BD1D9A6DB700F08F40 /* ViewController.swift in Sources */,
+				882F90BB1D9A6DB700F08F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90C71D9A6DB700F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90D01D9A6DB700F08F40 /* iSTROBE_eHEALTH2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F90D21D9A6DB700F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90DB1D9A6DB700F08F40 /* iSTROBE_eHEALTH2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882F90CD1D9A6DB700F08F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882F90B61D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */;
+			targetProxy = 882F90CC1D9A6DB700F08F40 /* PBXContainerItemProxy */;
+		};
+		882F90D81D9A6DB700F08F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882F90B61D9A6DB700F08F40 /* iSTROBE-eHEALTH2 */;
+			targetProxy = 882F90D71D9A6DB700F08F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882F90BE1D9A6DB700F08F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882F90BF1D9A6DB700F08F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882F90C31D9A6DB700F08F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882F90C41D9A6DB700F08F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882F90DD1D9A6DB700F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		882F90DE1D9A6DB700F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882F90E01D9A6DB700F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		882F90E11D9A6DB700F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		882F90E31D9A6DB700F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSTROBE-eHEALTH2.app/iSTROBE-eHEALTH2";
+			};
+			name = Debug;
+		};
+		882F90E41D9A6DB700F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSTROBE-eHEALTH2.app/iSTROBE-eHEALTH2";
+			};
+			name = Release;
+		};
+		882F90E61D9A6DB700F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iSTROBE-eHEALTH2";
+			};
+			name = Debug;
+		};
+		882F90E71D9A6DB700F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iSTROBE-eHEALTH2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.iSTROBE-eHEALTH2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iSTROBE-eHEALTH2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882F90B21D9A6DB700F08F40 /* Build configuration list for PBXProject "iSTROBE-eHEALTH2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F90DD1D9A6DB700F08F40 /* Debug */,
+				882F90DE1D9A6DB700F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882F90DF1D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F90E01D9A6DB700F08F40 /* Debug */,
+				882F90E11D9A6DB700F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		882F90E21D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F90E31D9A6DB700F08F40 /* Debug */,
+				882F90E41D9A6DB700F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		882F90E51D9A6DB700F08F40 /* Build configuration list for PBXNativeTarget "iSTROBE-eHEALTH2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F90E61D9A6DB700F08F40 /* Debug */,
+				882F90E71D9A6DB700F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882F90AF1D9A6DB700F08F40 /* Project object */;
+}
